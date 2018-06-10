@@ -4,7 +4,7 @@
 ## The output is a list containing a function to 
 ## set the value of the matrix, get the value of the matrix,
 ## set the inverse of the matrix, get the inverse of the matrix
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
   i <- NULL ## i represents the inverse of a matrix
   ## set the value of the matrix
   set <- function(y) {
